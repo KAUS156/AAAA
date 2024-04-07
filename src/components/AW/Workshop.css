@@ -1,0 +1,31 @@
+/* Workshop.css */
+
+/* Styling for join meeting buttons */
+.button-container {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .button-container button {
+    padding: 10px 20px; /* Adjust padding as needed */
+    margin: 10px; /* Adjust margin as needed */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  /* Styling for offline meeting button */
+  .offline-button {
+    background-color:green;
+    color: white;
+  }
+  
+  /* Styling for online meeting button */
+  .online-button {
+    background-color:green;
+    color: white;
+  }
+  
+  /* Additional styles */
+ 
+  

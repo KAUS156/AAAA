@@ -1,0 +1,68 @@
+.vh-100{
+    background-color: aqua;
+
+}
+
+.mainvote{
+    background-color: #2aa52a;
+}
+
+.control{
+    background-color: black;
+}
+.vote-form {
+    width: 500px;
+    margin: auto;
+    padding: 20px;
+    border: 3px solid #00f;
+    border-radius: 5px;
+}
+
+.vote-form h1 {
+    text-align: center;
+}
+
+.vote-form .form-group {
+    margin-bottom: 15px;
+}
+.mainvote{
+    background-color: rgb(117, 10, 69);
+}
+
+.vote-form label {
+    font-weight: bold;
+}
+
+.vote-form input[type="text"],
+.vote-form input[type="email"] {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+.vote-form button {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.vote-form button:hover {
+    background-color: #0056b3;
+}
+
+
+
+
+.v
+{
+    color: rgb(11, 11, 24);
+    position: absolute;
+  top: 8;
+  right: 20; 
+}

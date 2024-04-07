@@ -1,0 +1,21 @@
+.meeting-info {
+    width: 500px;
+    margin: auto;
+    background-color: antiquewhite;
+    height: 600px;
+    width: 1300px;
+    
+}
+
+.meeting-info li {
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 40px;
+}
+
+.meeting-info h2 {
+    font-size: 100px; /* Adjust as needed */
+}
+

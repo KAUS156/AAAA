@@ -1,0 +1,42 @@
+/* Ofline.css */
+
+/* Center align the content */
+.center {
+  text-align: center;
+}
+
+/* Style the heading */
+h2 {
+  font-size: 24px;
+  color: #333;
+}
+
+/* Style the list */
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+/* Style each list item */
+li {
+  margin-bottom: 20px;
+  padding: 20px;
+  border: 5px solid #ac0909;
+  border-radius: 5px;
+}
+
+/* Style the details */
+strong {
+  font-weight: bold;
+}
+
+/* Style the contact information */
+.contact {
+  font-style: italic;
+}
+
+/* Style the meeting number */
+.meeting-number {
+  font-size: 18px;
+  color: #666;
+}

@@ -4,7 +4,7 @@ import React from 'react'
   return (
     <div>
         <h1>
-            this is notification page
+            <h1><center>Setting part</center></h1>
         </h1>
         </div>
   )

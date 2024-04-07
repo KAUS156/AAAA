@@ -1,0 +1,91 @@
+/* Account.css */
+
+.account-container {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #94eb9e;
+    border-radius: 5px;
+    background: linear-gradient(45deg, rgb(136, 231, 204), transparent);
+  }
+  
+  .profile-photo-container {
+    text-align: center;
+    margin-bottom: 20px;
+    align-items: center;
+  }
+  
+  .profile-photo {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    
+    border: 3px solid #007bff; /* Change border color as needed */
+  }
+  
+  .profile-photo-container input[type="file"] {
+    display: none;
+  }
+  
+  .profile-photo-container img:hover {
+    opacity: 0.8;
+  }
+
+  .profile-photo-container button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 8px;
+    padding-top: 40px;
+  }
+  
+  .profile-photo-container button:hover {
+    background-color: #0056b3;
+  }
+  
+  
+  .account-container h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    padding-top: 50px;
+  }
+  
+  .account-container label {
+    font-weight: bold;
+    margin-bottom: 8px;
+    display: block;
+  }
+  
+  .account-container input[type="text"],
+  .account-container input[type="email"],
+  .account-container input[type="tel"],
+  .account-container textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .account-container button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .account-container button:hover {
+    background-color: #0056b3;
+  }
+  
+  .account-container span {
+    display: inline-block;
+    margin-bottom: 10px;
+  }
+  
