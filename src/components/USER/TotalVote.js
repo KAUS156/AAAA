@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 import Navbar from "./Navbar";
-
+import './TotalVote.css'
 function TotalVote() {
     const [count, setCount] = useState(0);
     const [clicked, setClicked] = useState(false); // State to track if the button is clicked
@@ -24,6 +24,7 @@ function TotalVote() {
 
     return (
         <div>
+        <div className='dfghgh'>
             <Navbar />
             <center>
                 <div style={{ display: "flex", justifyContent: "center", alignItems: "center", height: "80vh" }}>
@@ -33,6 +34,7 @@ function TotalVote() {
                     </div>
                 </div>
             </center>
+        </div>
         </div>
     );
 }

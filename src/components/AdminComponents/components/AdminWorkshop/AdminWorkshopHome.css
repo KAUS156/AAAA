@@ -1,0 +1,30 @@
+
+
+   
+   .h{
+    background-color:white;
+    height: 620px;
+    width: 1350px;
+   }
+    
+ .hk{
+    
+     
+       
+        
+       
+        
+          
+            /* Set the background size to cover the entire element */
+            background-size: cover;
+          
+            /* Set the background repeat to no-repeat */
+            background-repeat: no-repeat;
+          
+            /* Set the width and height of the element */
+            width: 1200px; /* Adjust width as needed */
+            height: 600px; /* Adjust height as needed */
+            transform: scale(1); 
+} 
+ 
+

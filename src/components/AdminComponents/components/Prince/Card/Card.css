@@ -1,0 +1,76 @@
+.main{
+    margin-top: 1.4rem;
+}
+.analyse{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.6rem;
+}
+.analyse >div {
+    background-color: rgb(246, 242, 242);
+    padding: 1.8rem;
+    border-radius: 2rem;
+    margin-top: 1rem;
+    box-shadow: 0 2rem 3rem rgba(132, 139, 200, 0.18);
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+.analyse >div:hover{
+    box-shadow: none;
+}
+.status{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+ .info >h3{
+    margin-left: 0.6rem;
+    font-size: 1rem;
+}
+.progress{
+    position: relative;
+    width: 92px;
+    height: 92px;
+    border-radius: 50%;
+}
+.progress svg{
+    width: 10rem;
+    height: 10rem;
+}
+
+.progress svg circle{
+    fill: none;
+    stroke-width: 10;
+    stroke-linecap: round;
+    transform: translate(5px 5px);
+}
+ 
+.progress svg circle{
+    stroke: #1B9C85;
+    stroke-dashoffset: -30;
+    stroke-dasharray: 500;
+}
+.percentage{
+    position: absolute;
+    top: -3px;
+    left: -1px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+}
+.Stopwatch{
+    text-align: center;
+    
+}
+.status2{
+    background-color: rgb(230, 110, 164);
+    padding: 1.8rem;
+    border-radius: 2rem;
+    margin-top: 1rem;
+    box-shadow: 0 2rem 3rem rgba(132, 139, 200, 0.18);
+    cursor: pointer;
+    transition: all 0.3s ease;
+
+}

@@ -9,7 +9,9 @@ function Online() {
     <div>
     
     <div className="t">
-    <center><h1>hello kaushal</h1></center> 
+    <a href="https://usersworkshop.netlify.app" target="_blank" rel="noopener noreferrer">
+        <button>Join Meeting</button>
+      </a>
     </div>
     </div>
   );

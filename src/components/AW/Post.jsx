@@ -1,6 +1,7 @@
 import React from "react";
 import Navbar from "./Navbar";
 import './Post.css';
+import Postss from "../AdminComponents/components/AdminWorkshop/Posts/Postss";
 function Post() {
   
   
@@ -9,7 +10,8 @@ function Post() {
     <div>
     <div className="pk">
     <Navbar />
-    <center><h1>fdghjkl</h1></center> 
+    <Postss/>
+    
     </div>
     </div>
   );

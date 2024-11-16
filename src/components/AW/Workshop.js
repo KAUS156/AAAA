@@ -15,16 +15,18 @@ function Workshop() {
      <center><h1>Welcome Join Workshop</h1></center> 
      <div className="j"></div>
      <div style={{ display: 'flex', justifyContent: 'space-between' }}> 
- <h2>Ofline Metting</h2>
- <h2>Online Metting</h2>
+ <h2>Ofline Workshop</h2>
+ <h2>Online Workshop</h2>
  </div>
  <div style={{ display: 'flex', justifyContent: 'space-between' }}>
       <Link to="/ofline">
-      <button style={{ backgroundColor: 'blue', color: 'white' }} onClick={() => console.log('Left Button clicked')}>join metting</button>
+      <button style={{ backgroundColor: 'blue', color: 'white', width: '250px', height: '60px', fontSize: '20px' }} onClick={() => console.log('Left Button clicked')}>Join </button>
+
       </Link>
       <Link to="/online">
       <div className="o">
-      <button style={{ backgroundColor: 'red', color: 'white' }} onClick={() => console.log('Right Button clicked')}>Join metting</button>
+      <button style={{ backgroundColor: 'blue', color: 'white', width: '250px', height: '60px', fontSize: '20px' }} onClick={() => console.log('Left Button clicked')}>Join </button>
+
     </div>
      
       </Link>

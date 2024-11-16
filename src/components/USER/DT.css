@@ -1,0 +1,97 @@
+.hh{
+    text-align: center;
+  }
+  .containera {
+      border: 2px solid red;
+      width: 100%;
+    }
+    
+    .parta {
+      display: inline-block; 
+      width: 50%; 
+    }
+    
+  
+    .card1a {
+      border: 3px solid #ccc;
+      border-radius: 7px;
+      display: inline-block;
+      padding: 20px;
+      margin: 10px 10px 10px 100px; 
+      width: 400px;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+    }
+    .card-texta{
+      text-align: start;
+      width: 100%;
+      margin-left: 25px;
+      /* margin-right: 25px; */
+    }
+    @keyframes moveCards {
+      0% {
+        transform: translateX(0);
+      }
+      100% {
+        transform: translateX(-50%); 
+      }
+    }
+    
+    .cards-containera {
+      display: inline-block; 
+      overflow: hidden;
+      width: 50%; 
+    }
+    
+    .cards-wrappera {
+      display: flex;
+      animation: moveCards 8s linear infinite;
+      flex-wrap: wrap; 
+      justify-content: space-between; 
+    }
+    .carda {
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      padding: 10px;
+      margin: 10px;
+      width: 200px;
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+      transition: 0.3s;
+      display: flex; /* Use flexbox */
+      flex-direction: column; /* Arrange children vertically */
+      align-items: center; /* Center children horizontally */
+      justify-content: center; /* Center children vertically */
+    }
+    
+    .carda h2,
+    .carda p {
+      margin: 0; /* Remove default margins */
+    }
+    
+   .dfghjkjhgf{
+    height: 600px;
+    background-color: #b65902; /* Initial background color */
+    position: relative;
+    animation: changeColor 8s infinite; /* Animation name, duration, and repetition */
+  }
+  
+  @keyframes changeColor {
+    0% {
+      background-color: #57e052; /* Initial background color */
+    }
+    50% {
+      background-color: #db0972; /* Change background color midway */
+    }
+    100% {
+      background-color: #2d02ec; /* Back to initial background color */
+    }
+  }
+  
+
+   
+    
+    .carda:hover {
+      box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+    }

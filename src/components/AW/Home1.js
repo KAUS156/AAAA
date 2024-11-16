@@ -7,7 +7,7 @@ const Home1 = () => {
     
       
       
-  
+  <div className="sdfggfd">
 
      
             
@@ -20,6 +20,7 @@ const Home1 = () => {
 
         
      <Navbar />
+     </div>
     
   );
 };

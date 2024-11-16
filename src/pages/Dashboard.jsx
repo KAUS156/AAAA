@@ -1,10 +1,15 @@
 import React from 'react'
 
+import Card from './../components/AdminComponents/components/Prince/Card/Card'
+import RightSide from '../components/AdminComponents/components/Prince/Bord/RightSide/RightSide'
+
 const Dashboard = () => {
   return (
-    <div>
+    <div className='dashbordhome'>
         <h1>
-           <center>User  Dashboard </center> 
+          <Card/>
+          <RightSide/>
+          
         </h1>
     </div>
   )

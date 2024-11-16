@@ -1,0 +1,69 @@
+/* Postss.module.css */
+
+.abc {
+  background-color: #e70202; /* Set background color */
+  padding: 20px; /* Add padding */
+}
+
+.PostBox {
+  margin-top: 20px; /* Add margin to the top */
+}
+
+.card {
+  background-color: #e70202;/* Set background color for card */
+  border-radius: 8px; /* Add border radius for the card */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add box shadow */
+}
+
+.card-header {
+  background-color:  #e70202; /* Set background color for card header */
+  padding: 10px; /* Add padding to card header */
+  border-top-left-radius: 8px; /* Add border radius to top-left of card header */
+  border-top-right-radius: 8px; /* Add border radius to top-right of card header */
+}
+
+.postbox {
+  margin-top: 20px; /* Add margin to post box */
+}
+
+.post {
+  background-color: #ffffff; /* Set background color for each post */
+  border-radius: 8px; /* Add border radius for each post */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add box shadow to each post */
+  padding: 10px; /* Add padding to each post */
+  margin-bottom: 20px; /* Add margin to the bottom of each post */
+}
+
+.post img {
+  max-width: 100%; /* Make sure images inside posts fit their container */
+}
+
+.PostBar {
+  margin-top: 20px; /* Add margin to post form */
+}
+
+.PostBar textarea {
+  width: 80%; /* Set textarea width to 100% */
+  padding: 10px; /* Add padding to textarea */
+  margin-bottom: 10px; /* Add margin to the bottom of textarea */
+}
+
+.PostBar input[type="file"] {
+  margin-bottom: 10px; /* Add margin to file input */
+}
+
+#send {
+  background-color: #007bff; /* Set background color for send button */
+  color: #ffffff; /* Set text color for send button */
+  padding: 10px 20px; /* Add padding to send button */
+  border: none; /* Remove border */
+  border-radius: 4px; /* Add border radius to send button */
+  cursor: pointer; 
+  width: 50px;/* Add cursor pointer */
+}
+.ggfgh{
+  background-color: aquamarine;
+}
+#send:hover {
+  background-color: #0056b3; /* Change background color on hover */
+}

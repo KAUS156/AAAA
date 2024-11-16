@@ -1,0 +1,21 @@
+.Demomain {
+    background-color: #f113ae;
+     /* Set background color */
+    margin: 20px; /* Add margin */
+    padding: 20px; /* Add padding */
+    text-align: center; /* Center align text */
+  }
+  
+  .video {
+    margin-bottom: 20px; /* Add margin bottom to separate videos */
+  }
+  
+  .text {
+    margin-top: 10px; /* Add margin top */
+  }
+  
+  .text li {
+    font-weight: bold; /* Set bold font weight */
+    font-size: 25px; /* Set font size */
+  }
+  

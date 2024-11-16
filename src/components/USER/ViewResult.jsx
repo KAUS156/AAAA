@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 import Navbar from "./Navbar";
 // Import CSS file
-
+import './ViewResult.css';
 const ViewResult = () => {
     const [result, setResult] = useState([]);
 
@@ -15,33 +15,33 @@ const ViewResult = () => {
     }, []);
 
     return (
-        <div>
+        
+        <div className='maote'>
             <Navbar />
         
-        <div className="info">
+        
           <center><h2>Result</h2><br></br></center>  
             <ul>
             <center></center>
                 {result.map(result => (
             
                 <li key={result.id}> <br></br>  
-                     <div className='u'> <br /></div> <br></br><br></br>
-                      <div style={{ display: "flex", justifyContent: "center", alignItems: "center", height: "20vh" }}>
-  <div style={{ width: "700px", padding: "20px", border: "3px solid #00f", borderRadius: "5px" }}><div></div>
+                      <br /><br></br><br></br>
+                     
  <center><strong> Result</strong><br /></center> <br></br>
-                        <strong>Kaushal Has Achive TotalVote:</strong> {result.kaushal}<br />
+               <center> <strong>Kaushal Has Achive TotalVote:</strong> {result.kaushal}<br />
                         <strong>Yasbant Has Achive TotalVote:</strong> {result.yasbant} Winner<br />
-                        <strong>Prince Has Achive TotalVote:</strong> {result.prince}<br />
+                        <strong>Prince Has Achive TotalVote:</strong> {result.prince}<br /></center> 
                         
                         
-                        </div>
+                        
 
-        </div>
+        
                     </li>
                 ))}
             </ul>
         </div>
-        </div>
+        
         
     );
 };

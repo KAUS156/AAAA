@@ -29,7 +29,7 @@ const UserLogin = () => {
       console.log(response.data);
       alert('Login successful!');
       // Redirect or do something else after successful login
-      navigate("/Sidebar"); // Assuming this redirects to the dashboard page
+      navigate("/sidebar"); // Assuming this redirects to the dashboard page
     } catch (error) {
       console.error(error);
       alert('Login failed!');

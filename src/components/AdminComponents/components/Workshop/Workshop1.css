@@ -1,0 +1,39 @@
+.w{
+    background-color: rgb(5, 114, 216);
+    height: 1200px;
+    width: 2000px;
+}
+.mainvo{
+    background-color: bisque;
+    height: 90vh;
+    width: 100%;
+}
+.j{
+    background-color: aqua;
+}
+.h{
+    
+    
+    
+    
+   
+    
+      
+        /* Set the background size to cover the entire element */
+        background-size: cover;
+      
+        /* Set the background repeat to no-repeat */
+        background-repeat: no-repeat;
+      
+        /* Set the width and height of the element */
+        width: 1300px; /* Adjust width as needed */
+        height: 600px; /* Adjust height as needed */
+        transform: scale(1);
+} 
+
+.button {
+    
+    margin: 100px;
+    height: 30px;
+     /* Set the width to your desired value */
+  }

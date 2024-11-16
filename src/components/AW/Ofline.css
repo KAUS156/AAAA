@@ -4,7 +4,10 @@
 .center {
   text-align: center;
 }
-
+.dfgfd{
+  background-color: #ac0909;
+  height: 600px;
+}
 /* Style the heading */
 h2 {
   font-size: 24px;

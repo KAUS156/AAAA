@@ -1,0 +1,39 @@
+/* Delete.css */
+
+.delete-student {
+    width: 30%;
+    margin:  auto;
+  }
+  
+  .delete-studentinput {
+    width: 30px;
+    height: 20px;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .delete-studentinput:focus {
+    outline: none;
+    border-color: #007bff; /* Change border color when focused */
+  }
+  
+  .delete-studet-button {
+    background-color: #dc3545; /* Red color */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  
+  .delete-studet-button:hover {
+    background-color: #c82333; /* Darker red color on hover */
+  }
+  
+  .delete-studet-button:disabled {
+    background-color: #ced4da; /* Gray out the button when disabled */
+    cursor: not-allowed;
+  }
+  

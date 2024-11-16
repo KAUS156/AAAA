@@ -5,7 +5,7 @@ import { NavLink } from "react-router-dom";
 
 function Landing() {
   return (
-    <>
+    <div className="firsthome">
       
 
       <div id={style.div1}>
@@ -40,7 +40,7 @@ function Landing() {
         </div>
       </div>
       
-    </>
+    </div>
   );
 }
 

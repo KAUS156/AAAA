@@ -5,7 +5,7 @@ import{
     FaEnvelope,
     FaFolder,
     FaTh,
-    FaUserAlt
+
 
 }from "react-icons/fa";
 import { NavLink } from 'react-router-dom';
@@ -15,7 +15,7 @@ import { NavLink } from 'react-router-dom';
     const toggle = () => setIsOpen (!isOpen);
     const menuItem=[
         {
-            path:"/",
+            path:"/dt",
             name:"Dashboard",
             icon:<FaTh/>
         },
@@ -26,14 +26,10 @@ import { NavLink } from 'react-router-dom';
         },
         {
             path:"/SettingsPage",
-            name:"SettingsSettingsPage",
+            name:"SettingsPage",
             icon:<FaCommentAlt/>
         },
-        {
-            path:"/profile",
-            name:"Profile",
-            icon:<FaUserAlt/>
-        },
+       
         {
             path:"/Home1",
             name:"Awerness",

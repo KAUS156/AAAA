@@ -56,7 +56,7 @@ const handle = () => {
           
         
         try {
-            await axios.post("http://localhost:8080/api/users/signup", {
+            await axios.post("http://localhost:8080/api/user/signup", {
                 
                 
                

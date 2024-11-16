@@ -4,18 +4,18 @@ import './Home.css';
 const Home = () => {
   
   return (
-    <div id="home">
+    <div className="hohjhgtyme">
       
       
   
 
      
-            <div className="hom">
+            
                
             
           
         
-       <center> <h1 className = "kaushal"> </h1></center><br></br>
+       
       
     
     
@@ -24,7 +24,7 @@ const Home = () => {
         
      <Navbar />
     </div>
-    </div>
+    
   );
 };
 

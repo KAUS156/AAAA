@@ -5,10 +5,22 @@ background-color: rgb(10, 91, 94);
 .kausha{
     background-color: blue;
 } */
-/* .home{
-    height: 100%;
-    width: 100%;
-} */
-.hom{
-    background-color: rgb(172, 209, 8);
-}
+ .hohjhgtyme{
+        height: 600px;
+        background-color: #b65902; /* Initial background color */
+        position: relative;
+        animation: changeColor 8s infinite; /* Animation name, duration, and repetition */
+      }
+      
+      @keyframes changeColor {
+        0% {
+          background-color: #57e052; /* Initial background color */
+        }
+        50% {
+          background-color: #db0972; /* Change background color midway */
+        }
+        100% {
+          background-color: #2d02ec; /* Back to initial background color */
+        }
+      }
+      

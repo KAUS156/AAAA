@@ -1,3 +1,21 @@
+.sdfggfd {
+  height: 600px;
+  background-color: #6407dd; /* Initial background color */
+  position: relative;
+  animation: changeColor 10s infinite; /* Animation name, duration, and repetition */
+}
+
+@keyframes changeColor {
+  0% {
+    background-color: #097205; /* Initial background color */
+  }
+  50% {
+    background-color: #09d4db; /* Change background color midway */
+  }
+  100% {
+    background-color: #a8e20a; /* Back to initial background color */
+  }
+}
 
 
    
